@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+
+:root {
+  --primary-color: #07a3e9;
+  --primary-tint-color: #edf9ff;
+  --text-color: #555;
+  --headings-color: #333;
+  --yellow: #ffd43b;
+}
+
+body {
+  color: var(--text-color);
+}
+
+.header {
+  background-color: var(--primary-tint-color);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-image {
+  width: 100px;
+}
+
+.navigation ul {
+  list-style: none;
+}
+
+.navigation ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.navigation .nav-link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navigation .nav-link:link,
+.navigation .nav-link:visited {
+  color: var(--text-color);
+}
+
+.navigation .nav-link:hover {
+  color: var(--primary-color);
+}
+
+.navigation .nav-link.try-for-free-link,
+.btn-blue,
+.btn-white {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.navigation .nav-link.try-for-free-link,
+.btn-blue {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.hero-section {
+  background-color: var(--primary-tint-color);
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.hero-section-wrapper {
+  background-color: var(--primary-tint-color);
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 0 auto;
+}
+
+.hero-content__title {
+  margin-bottom: 20px;
+}
+.hero-content__title h1 {
+  font-size: 32px;
+}
+.hero-content__description {
+  margin-bottom: 40px;
+}
+
+.hero-content__description .p1,
+.hero-content__description .p2 {
+  line-height: 2;
+}
+
+.hero-content__description .p1 {
+  text-transform: uppercase;
+}
+
+.hero-image img {
+  max-width: 430px;
+}
+
+.hero-content__buttons {
+  margin-bottom: 60px;
+}
+.btn-blue,
+.btn-white {
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-blue {
+}
+
+.btn-white {
+  background-color: #ffffff;
+  color: inherit;
+  margin-left: 10px;
+}
+
+.hero-content__customers {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-content__customers-images img {
+  object-fit: cover;
+  width: 40px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  padding: 1px;
+  border: 2px solid var(--primary-color);
+  display: inline-block;
+  margin-left: -20px;
+}
+.hero-content__customers-images img:first-child {
+  margin-left: 0;
+}
+
+.hero-content__customers-details p {
+  font-weight: 600;
+}
+.hero-content__customers-details p span {
+  color: var(--primary-color);
+}
